@@ -1,5 +1,5 @@
 <form method="POST" class="w-[300px] h-[447.141px] ml-[50px] relative">
-    <h1 class="font-poppins font-black text-[36px] mb-[33px]">Sign in</h1>
+    <h1 class="font-poppins font-black text-[36px] mb-[33px]">Sign up</h1>
     <div class="relative">
         <i class="bi bi-person-fill absolute top-[2px]"></i>
         <input placeholder="Username" class="input-form" type="text" name="name">
@@ -12,7 +12,7 @@
         <input type="checkbox" name="remember" class="mr-[10px] relative top-[2px]">
         <label for="remember" class="font-poppins text-[13px] text-[#222]">Remember me</label>
     </div>
-    <input type="submit" value="Log in" class="bg-[#6DABE4] text-white font-poppins text-[14px] py-[15px] px-[39px] mt-[16px] rounded-[5px]">
+    <input type="submit" value="Log in" class="bg-[#6DABE4] text-white font-poppins text-[14px] py-[15px] px-[39px] mt-[16px] rounded-[5px] hover:cursor-pointer hover:bg-[#4292DC] transition">
     
     <div class="font-poppins mt-[80px] flex justify-start items-center gap-[20px]">
         <p class="text-[14px] text-[#222]">Or login with</p>
@@ -23,5 +23,5 @@
         </div>
     </div>
 
-    <a href="#" class="text-[14px] text-[#222] underline font-poppins absolute top-[411px] -left-[325px]">Create an account</a>
+    <a href="/signup" class="text-[14px] text-[#222] underline font-poppins absolute top-[411px] -left-[325px]">Create an account</a>
 </form>

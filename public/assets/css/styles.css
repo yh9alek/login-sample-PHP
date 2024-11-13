@@ -612,6 +612,14 @@ video {
   left: -325px;
 }
 
+.left-\[2px\] {
+  left: 2px;
+}
+
+.top-\[6px\] {
+  top: 6px;
+}
+
 .mb-\[30px\] {
   margin-bottom: 30px;
 }
@@ -818,4 +826,13 @@ video {
   --tw-scale-x: 1.1;
   --tw-scale-y: 1.1;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.hover\:cursor-pointer:hover {
+  cursor: pointer;
+}
+
+.hover\:bg-\[\#4292DC\]:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(66 146 220 / var(--tw-bg-opacity));
 }
