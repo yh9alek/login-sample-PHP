@@ -4,14 +4,10 @@ module.exports = {
   theme: {
 
     screens: {
-      "1320": "1320px"
+      "990": {"max":  "990px"},
     },
 
     extend: {
-
-      colors: {
-        "blue-brain": "#0D6EFD"
-      },
 
       fontFamily: {
         "poppins": '"Poppins", sans-serif',

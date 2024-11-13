@@ -1,4 +1,4 @@
-<form method="POST" class="w-[300px] h-[447.141px] ml-[50px] relative">
+<form method="POST" class="w-[300px] h-[447.141px] relative">
     <h1 class="font-poppins font-black text-[36px] mb-[33px]">Sign up</h1>
     <div class="relative">
         <i class="bi bi-person-fill absolute top-[2px]"></i>

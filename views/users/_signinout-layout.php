@@ -10,16 +10,18 @@
     </head>
     <body class="bg-[#F8F8F8]">
         <section class="flex justify-center mt-[75px]">
+
             <div class="pt-[67px] pb-[87px] bg-white rounded-[20px] shadow-[0px_15px_16.83px_0.17px_rgba(0,0,0,0.05)]">
-                <div class="w-[900px] h-[447.141px] flex justify-center items-center gap-16">
+                <div class="w-[900px] h-[447.141px] flex justify-between items-center px-[100px] 990:w-full">
                     <figure class="w-[300px] h-[357.391px]">
                         <img src="https://colorlib.com/etc/regform/colorlib-regform-7/images/signup-image.jpg" alt="Ilustracion">
                     </figure>
 
                     <?= $slot ?>
-                    
+
                 </div>
             </div>
+
         </section>
     </body>
 </html>
