@@ -1,0 +1,17 @@
+@import url('../css/fonts.css');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    :root {
+        accent-color: #b961ec;
+    }
+}
+
+@layer components {
+    .input-form {
+        @apply outline-none w-full mb-[25px] py-[6px] px-[30px] border-b border-[#999] font-poppins text-[14px]
+    }
+}
