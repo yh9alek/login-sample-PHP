@@ -1,0 +1,41 @@
+# Dependencias de PHP
+/vendor/
+
+# Archivos y directorios temporales de PHP
+*.log
+*.bak
+*.tmp
+
+# Composer
+composer.lock
+
+# Archivos de entorno
+.env
+
+# Directorios de caché y archivos temporales del framework
+/storage/
+/cache/
+
+# Archivos y carpetas generados por el sistema operativo
+.DS_Store
+Thumbs.db
+
+# Archivos generados por el IDE
+/.idea/
+/.vscode/
+
+# Archivos de Node.js
+node_modules/
+dist/
+build/
+
+# Archivos compilados y de distribución
+*.min.js
+*.min.css
+
+# Si usas Yarn o npm
+package-lock.json
+yarn.lock
+
+# Otros archivos y directorios a ignorar
+/public/uploads/
