@@ -797,6 +797,11 @@ video {
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
+.text-\[\#FB9173\] {
+  --tw-text-opacity: 1;
+  color: rgb(251 145 115 / var(--tw-text-opacity));
+}
+
 .underline {
   text-decoration-line: underline;
 }

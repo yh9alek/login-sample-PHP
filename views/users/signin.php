@@ -1,8 +1,8 @@
-<form method="POST" class="w-[300px] h-[447.141px] relative 870:w-[400px]">
+<form method="POST" class="w-[300px] h-[447.141px] relative 870:w-[400px] 710:w-[300px]">
     <h1 class="font-poppins font-black text-[36px] mb-[33px]">Sign in</h1>
     <div class="relative">
         <i class="bi bi-person-fill absolute top-[2px]"></i>
-        <input placeholder="Username" class="input-form" type="text" name="name">
+        <input placeholder="Username" class="input-form" type="text" name="username">
     </div>
     <div class="relative">
         <i class="bi bi-key absolute top-[4px]"></i>

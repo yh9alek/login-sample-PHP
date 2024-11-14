@@ -2,10 +2,18 @@
 
 namespace app;
 
+use app\Database;
+
 class Router {
+
+    public Database $db;
     
     public array $getRoutes = [];
     public array $postRoutes = [];
+
+    public function __construct() {
+        $this->db = new Database();
+    }
 
     public function get($url, $fn) {
         $this->getRoutes[$url] = $fn;

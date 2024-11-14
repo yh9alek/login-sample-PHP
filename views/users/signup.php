@@ -2,11 +2,11 @@
     <h1 class="font-poppins font-black text-[36px] mb-[33px]">Sign up</h1>
     <div class="relative">
         <i class="bi bi-person-fill absolute top-[2px]"></i>
-        <input placeholder="Your Name" class="input-form" type="text" name="name">
+        <input placeholder="Your Name" class="input-form" type="text" name="username" value="<?= $user['username'] ?>">
     </div>
     <div class="relative">
         <i class="bi bi-envelope-fill absolute top-[6px] left-[2px] text-[12px]"></i>
-        <input placeholder="Your Email" class="input-form" type="email" name="email">
+        <input placeholder="Your Email" class="input-form" type="email" name="email" value="<?= $user['email'] ?>">
     </div>
     <div class="relative">
         <i class="bi bi-key-fill absolute top-[4px]"></i>

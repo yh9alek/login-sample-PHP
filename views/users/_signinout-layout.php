@@ -19,6 +19,12 @@
 
                     <?= $slot ?>
 
+                    <?php if(!empty($errors)): ?>
+                        <?php foreach($errors as $error): ?>
+                            <p class="text-[#FB9173]"><?= $error ?></p>
+                        <?php endforeach; ?>
+                    <?php endif; ?>
+
                 </div>
             </div>
 
