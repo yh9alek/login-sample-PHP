@@ -620,10 +620,6 @@ video {
   margin-bottom: 33px;
 }
 
-.ml-\[50px\] {
-  margin-left: 50px;
-}
-
 .mr-\[10px\] {
   margin-right: 10px;
 }
@@ -726,9 +722,9 @@ video {
   background-color: rgb(231 39 52 / var(--tw-bg-opacity));
 }
 
-.bg-\[\#F8F8F8\] {
+.bg-gray-600 {
   --tw-bg-opacity: 1;
-  background-color: rgb(248 248 248 / var(--tw-bg-opacity));
+  background-color: rgb(75 85 99 / var(--tw-bg-opacity));
 }
 
 .bg-white {
@@ -819,6 +815,34 @@ video {
   transition-duration: 150ms;
 }
 
+@media (max-width: 870px) {
+  .cont {
+    width: 600px !important;
+    padding: 0 100px;
+  }
+
+  a[href="/signup"] {
+    left: 270px;
+    width: 200px;
+  }
+
+  a[href="/signin"] {
+    left: 245px;
+    width: 200px;
+  }
+}
+
+@media (max-width: 710px) {
+  .form {
+    width: 300px !important;
+  }
+
+  .cont {
+    width: 100% !important;
+    padding: 0 100px !important;
+  }
+}
+
 .hover\:scale-110:hover {
   --tw-scale-x: 1.1;
   --tw-scale-y: 1.1;
@@ -834,8 +858,49 @@ video {
   background-color: rgb(66 146 220 / var(--tw-bg-opacity));
 }
 
+@media (max-width: 710px) {
+  .\37 10\:static {
+    position: static;
+  }
+
+  .\37 10\:w-\[300px\] {
+    width: 300px;
+  }
+}
+
+@media (max-width: 870px) {
+  .\38 70\:hidden {
+    display: none;
+  }
+
+  .\38 70\:w-\[400px\] {
+    width: 400px;
+  }
+
+  .\38 70\:justify-center {
+    justify-content: center;
+  }
+
+  .\38 70\:px-\[0px\] {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+}
+
 @media (max-width: 990px) {
-  .\39 90\:w-full {
-    width: 100%;
+  .\39 90\:-left-\[260px\] {
+    left: -260px;
+  }
+
+  .\39 90\:-left-\[270px\] {
+    left: -270px;
+  }
+
+  .\39 90\:w-\[220px\] {
+    width: 220px;
+  }
+
+  .\39 90\:w-\[800px\] {
+    width: 800px;
   }
 }

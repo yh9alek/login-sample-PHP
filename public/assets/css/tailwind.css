@@ -15,3 +15,32 @@
         @apply outline-none w-full mb-[25px] py-[6px] px-[30px] border-b border-[#999] font-poppins text-[14px]
     }
 }
+
+@media (max-width: 870px) {
+    .cont {
+        width: 600px !important;
+        padding: 0 100px;
+    }
+
+    a[href="/signup"] {
+        left: 270px;
+        width: 200px;
+    }
+
+    a[href="/signin"] {
+        left: 245px;
+        width: 200px;
+    }
+}
+
+@media (max-width: 710px) {
+
+    .form {
+        width: 300px !important;
+    }
+
+    .cont {
+        width: 100% !important;
+        padding: 0 100px !important;
+    }
+}

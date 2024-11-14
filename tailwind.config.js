@@ -5,6 +5,8 @@ module.exports = {
 
     screens: {
       "990": {"max":  "990px"},
+      "870": {"max":  "870px"},
+      "710": {"max": "710px"}
     },
 
     extend: {
