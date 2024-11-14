@@ -16,31 +16,52 @@
     }
 }
 
-@media (max-width: 870px) {
-    .cont {
-        width: 600px !important;
-        padding: 0 100px;
-    }
-
-    a[href="/signup"] {
-        left: 270px;
-        width: 200px;
-    }
+@media(max-width: 660px) {
 
     a[href="/signin"] {
-        left: 245px;
-        width: 200px;
+        top: 460px !important;
+    }
+
+    .signup-b > input[type="submit"] {
+        display: block;
+        width: 100%;
+        margin-top: 0;
+    }
+
+}
+
+@media (max-width: 500px) {
+
+    body {
+        background-color: #FFF !important;
+    }
+
+    form {
+        width: 80% !important;
+    }
+
+    .form {
+        box-shadow: none;
+    }
+
+    .signin-b {
+        align-items: center !important;
     }
 }
 
-@media (max-width: 710px) {
+@media (max-width: 400px) {
+    form {
+        width: 94% !important;
+    }
+}
 
-    .form {
-        width: 300px !important;
+@media (max-width: 287px) {
+    .logwith {
+        flex-direction: column !important;
+        gap: 5px !important;
     }
 
-    .cont {
-        width: 100% !important;
-        padding: 0 100px !important;
+    .logwith-p {
+        display: none !important;
     }
 }
